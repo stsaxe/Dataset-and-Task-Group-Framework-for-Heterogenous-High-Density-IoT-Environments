@@ -20,10 +20,10 @@ This repository is structured as follows:
 
 - **notebooks**: Contains three Jupyter Notebooks. These are:
 
-  - Introduction to Task Group Framework: This Notebook introduces the Task-group-Framework with the application of linear-affine transformations to data.
-  - AnalysisPipeline: This notebook builds a complex data-pipeline for preprocessing the BLE packet data. The purpose of this data-pipeline
+  - "IntroductionToTaskGroupFramework": This Notebook introduces the Task-group-Framework with the application of linear-affine transformations to data.
+  - "AnalysisPipeline": This notebook builds a complex data-pipeline for preprocessing the BLE packet data. The purpose of this data-pipeline
     is visual data analysis (i.e., plotting). 
-  - AnalysisPlots: This Notebook generates plots for visual data analysis of the BLE packet data. These plots are enabled by the before mentioned data-pipeline 
+  - "AnalysisPlots": This Notebook generates plots for visual data analysis of the BLE packet data. These plots are enabled by the before mentioned data-pipeline 
   and the plotting implementations built with the Task-Group-Framework.
 
 
