@@ -1,7 +1,6 @@
 import unittest
 
-from src.pre_processing.flags.base_flag import BaseFlag
-from src.pre_processing.flags.flag import Flag
+from tgf import BaseFlag, Flag
 
 
 class Test_Flags(unittest.TestCase):
