@@ -3,7 +3,6 @@ import pandas as pd
 
 from plotting.src.functions import featureImportanceDataFrame
 
-
 class Test_Helpers(unittest.TestCase):
     def verifyResult(self, x: pd.DataFrame, y: pd.DataFrame):
         self.assertEqual(list(x.columns), list(y.columns))

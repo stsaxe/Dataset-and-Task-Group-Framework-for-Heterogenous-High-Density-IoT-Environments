@@ -5,3 +5,4 @@ from tgf.tasks.task_group import TaskGroup
 from tgf.tasks.task import AbstractFlag
 from tgf.interfaces.executor_interface import ExecutorInterface
 from tgf.pipeline.pipeline import Pipeline
+from tgf.tasks.abstract_task import AbstractTask
