@@ -4,7 +4,7 @@ This is the official repository of the paper "Dataset and Task Group
 Framework for Heterogenous High-Density IoT-Environments".
 
 This repository is structured as follows:
-- **tgf**: contains the core components of the Task-Group-Framework. This includes:
+- **tgf**: Contains the core components of the Task-Group-Framework. This includes:
   - Task
   - Task-Group
   - Flags
