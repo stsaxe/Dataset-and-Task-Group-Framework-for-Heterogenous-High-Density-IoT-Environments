@@ -1,6 +1,6 @@
 # Dataset-and-Task-Group-Framework-for-Heterogenous-High-Density-IoT-Environments 
 
-This is the official repository of the paper "Dataset and Task Group 
+This is the official repository for the paper "Dataset and Task Group 
 Framework for Heterogenous High-Density IoT-Environments".
 
 This repository is structured as follows:
@@ -12,7 +12,8 @@ This repository is structured as follows:
   
 
 - **executors**: Contains the implementations of various data processing steps for BLE packet data. 
-                These processing steps are implemented with the Task-Group-Framework as "executors".
+                These processing steps are implemented with the Task-Group-Framework as "executors" and are used
+                in the "AnalysisPipeline" Notebook to build a data-pipeline for BLE packet data processing. 
 
   
 - **plotting**: Contains various implementations for plotting with matplotlib. Most of these implementations make extensive use of the Task-Group-Framework.
