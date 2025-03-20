@@ -42,7 +42,7 @@ The data can be found on the link below on Kaggle. Include the "data" folder as 
 
 Link to data: https://www.kaggle.com/datasets/stefansaxer/ble-packets-from-tracking-devices
 
-**Note**: Local execution requires Python Version **3.11** or later. 
+**Note**: Local execution requires Python Version **3.11** or later.
 
 
 
