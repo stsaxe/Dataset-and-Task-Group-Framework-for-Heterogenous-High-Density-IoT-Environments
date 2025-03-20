@@ -4,10 +4,7 @@ import unittest
 
 import pandas as pd
 
-from src.pre_processing.flags.flag import Flag
-from src.pre_processing.interfaces.executor_interface import ExecutorInterface
-from src.pre_processing.tasks.task import Task
-from src.pre_processing.tasks.task_group import TaskGroup
+from tgf import Task, TaskGroup, ExecutorInterface, Flag
 
 
 class Test_TaskGroup_With_Flags(unittest.TestCase):

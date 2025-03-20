@@ -4,10 +4,7 @@ import unittest
 
 import pandas as pd
 
-from src.pre_processing.interfaces.executor_interface import ExecutorInterface
-from src.pre_processing.tasks.simple_executor import SimpleExecutor
-from src.pre_processing.tasks.task import Task
-from src.pre_processing.tasks.task_group import TaskGroup
+from tgf import Task, TaskGroup, ExecutorInterface
 
 
 class Test_TaskGroup(unittest.TestCase):
@@ -62,7 +59,7 @@ class Test_TaskGroup(unittest.TestCase):
 
     def test_false_type_added(self):
         with self.assertRaises(AssertionError):
-            self.taskGroup.add(SimpleExecutor())
+            self.taskGroup.add('Test')
 
     def test_nested_TaskGroup(self):
         nestedTaskGroup = TaskGroup("NestedGroup", 2)

@@ -4,11 +4,7 @@ import unittest
 
 import pandas as pd
 
-from src.pre_processing.flags.base_flag import BaseFlag
-from src.pre_processing.flags.flag import Flag
-from src.pre_processing.interfaces.executor_interface import ExecutorInterface
-from src.pre_processing.tasks.task import Task
-
+from tgf import Flag, Task, BaseFlag, ExecutorInterface
 
 class Test_AbstractTask(unittest.TestCase):
     class myExecutor(ExecutorInterface):

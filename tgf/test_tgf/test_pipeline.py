@@ -1,13 +1,9 @@
-import os
 import unittest
 
 import pandas as pd
 from unittest.mock import patch
 
-from src.pre_processing.flags.flag import Flag
-from src.pre_processing.interfaces.executor_interface import ExecutorInterface
-from src.pre_processing.pipeline.pipeline import Pipeline
-from src.pre_processing.tasks.task import Task
+from tgf import ExecutorInterface, Flag, Task, Pipeline
 
 
 class Test_Pipeline(unittest.TestCase):

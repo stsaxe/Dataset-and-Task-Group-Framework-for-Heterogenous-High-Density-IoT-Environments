@@ -1,8 +1,8 @@
 import unittest
 
-from src.pre_processing.custom_queues.custom_priority_queue import CustomPriorityQueue
-from src.pre_processing.custom_queues.custom_queue import CustomQueue
-from src.pre_processing.tasks.task import Task
+from tgf import Task
+from tgf.custom_queues.custom_priority_queue import CustomPriorityQueue
+from tgf.custom_queues.custom_queue import CustomQueue
 
 
 class Test_simple_queue(unittest.TestCase):
